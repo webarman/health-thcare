@@ -1,0 +1,21 @@
+.main-header {
+  background-color: blue;
+  color: white;
+}
+.header-logo {
+  color: white;
+  font-weight: 900;
+}
+.header-a {
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.856);
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+}
+.header-a:hover {
+  color: white;
+  border: 2px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}

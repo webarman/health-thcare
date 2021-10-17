@@ -1,0 +1,48 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  text-align: center;
+}
+
+.login-section {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+}
+.login-title {
+  color: blue;
+  font-weight: bold;
+}
+.login-section .input-data {
+  border-bottom: 2px solid blue;
+  width: 230px;
+  padding: 7px;
+}
+.login-section .input-data:hover {
+  border: 1px solid blue;
+}
+.login-section .input-data:focus {
+  color: blue;
+  font-weight: bold;
+}
+.login-section input {
+  margin: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.login-btn,
+.google-login-btn {
+  background-color: rgba(0, 0, 255, 0.76);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 55px;
+}
+.login-btn:hover,
+.google-login-btn:hover {
+  background-color: blue;
+}
